@@ -717,10 +717,119 @@ letter-spacing: 1.8px;
     bottom: 20px;
 }
 #baytik {
-    height: 3000px;
+    background: url(./image/baytik-bg.png);
+    height: 100vh;
     background-repeat: no-repeat;
+    position: relative;
+    top: 265px;
+    left: -1px;
+}
+.logo-text {
+    padding: 216px 0 0 120px;
+    position: relative;
+}
+.baytik-lux {
+    position: absolute;
+left: 541px;
+top: 216px;
+}
+.baytik-info h3 {
+    width:306px;
+    color: #FFF;
+font-size: 24px;
+font-weight: 600;
+line-height: 140%; /* 33.6px */
+letter-spacing: 2.4px;
+margin-left: 40px;
+}
+.baytik-name input {
+    width: 300px;
+height: 60px;
+border: 1px solid #FFF;
+background: transparent;
+padding-left: 20px;
+}
+.baytik-name {
+    margin: 30px 0 20px 40px;
+}
+.baytik-number input {
+    width: 260px;
+height: 60px;
+border: 1px solid #FFF;
+background: transparent;
+padding-left: 58px;
+}
+.baytik-number {
+    margin:0 0 20px 40px;
+    position: relative;
+}
+.flag {
+    position: absolute;
+    top: 252px;
+    left: 55px;
+}
+.baytik-call button {
+    color: #253659;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 1.8px;
+width: 217px;
+height: 60px;
+background: #FFF;
+border: none;
+}
+.baytik-call {
+    margin-left: 40px;
 }
 .baytik {
     position: relative;
-    top: 600px;
+}
+.baytik-info {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+    width: 440px;
+height: 420px;
+background: rgba(37, 54, 89, 0.80);
+backdrop-filter: blur(2px);
+}
+.flag span {
+    color: #FFFFFF80;
+}
+#main {
+height: 240px;
+background: #FFF;
+position: relative;
+top: 125px;
+}
+.main h2 {
+    color: #253659;
+font-size: 36px;
+font-weight: 600;
+letter-spacing: 3.6px;
+padding: 40px 0 0 110px;
+}
+.firma {
+    display: flex;
+    align-items: center;
+    padding: 8px 0 0 110px;
+}
+.firma img {
+    margin: 0 8px;
+}
+.main {
+    position: relative;
+}
+.firma-img {
+    position: absolute;
+    right: -33px;
+    bottom: -50px;
+}
+.firma-bg {
+    position: absolute;
+    bottom: 0;
 }
