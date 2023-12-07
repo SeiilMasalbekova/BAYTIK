@@ -8,6 +8,7 @@ a {
 body {
     background: #ABCBE1;
     font-family: "Open Sans" sans-serif;
+    overflow: hidden;
 }
 .container {
     width: 95%;
@@ -345,7 +346,7 @@ background: #253659;
 }
 .company-vektor3 {
     position: absolute;
-    left: 300px;
+    left: 200px;
     bottom: 113px;
 }
 .company-icon1  {
@@ -722,7 +723,7 @@ letter-spacing: 1.8px;
     background-repeat: no-repeat;
     position: relative;
     top: 265px;
-    left: -1px;
+    left: 0;
 }
 .logo-text {
     padding: 216px 0 0 120px;
