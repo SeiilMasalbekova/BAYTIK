@@ -768,6 +768,7 @@ height: 60px;
 border: 1px solid #FFF;
 background: transparent;
 padding-left: 20px;
+outline: none;
 }
 .baytik-name {
     margin: 30px 0 20px 40px;
@@ -778,6 +779,7 @@ height: 60px;
 border: 1px solid #FFF;
 background: transparent;
 padding-left: 58px;
+outline: none;
 }
 .baytik-number {
     margin:0 0 20px 40px;
@@ -797,6 +799,7 @@ width: 217px;
 height: 60px;
 background: #FFF;
 border: none;
+outline: none;
 }
 .baytik-call {
     margin-left: 40px;
