@@ -257,10 +257,9 @@ background: #253659CC;
 }
 #baytik {
     background: url(./image/baytik-bg.png);
-    height: 100vh;
+    height: 500px;
     background-repeat: no-repeat;
 position: relative;  
-top: -100px;  
 }
 .logo-text {
     padding: 216px 0 0 120px;
@@ -348,7 +347,6 @@ box-shadow: -8px -8px 100px 29px rgba(37, 54, 89, 0.80);
 height: 360px;
 background: #253659;
 position: relative;
-top: -240px;
 }
 .footer-top {
     display: flex;
