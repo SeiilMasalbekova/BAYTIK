@@ -15,7 +15,7 @@ body {
 }
 #header {
     padding: 30px 0;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     backdrop-filter: blur(5px);
@@ -85,11 +85,9 @@ font-weight: 400;
 }
 #hero {
     background: url(./image/hero-bg.png);
-height: 100vh;
-background-size: cover;
+height: 700px;
 background-repeat: no-repeat;
-position: relative;
-top: -93px;
+background-size: cover;
 }
 .hero-text h1 {
     color: #253659;
@@ -146,15 +144,15 @@ border: none;
     left: 0;
 }
 .vektor1 div {
-    width: 500px;
+    width: 524px;
     height: 1px;
     stroke-width: 0.5px;
 background: #253659;
 }
 .vektor1 {
     position: absolute;
-    top: 126.4px;
-    left: -33px;
+    top: 135.4px;
+    left: -1px;
 }
 .vektor2 div {
     width: 520px;
@@ -166,7 +164,7 @@ background: #253659;
 .vektor2 {
     position: absolute;
     left: -101px;
-    bottom: 262px;
+    bottom: 69px;
 }
 .hero-dot span {
     display: flex;
@@ -177,7 +175,7 @@ background: #253659;
 }
 .hero-dot {
     position: absolute;
-    top: 117px;
+    top: 127px;
     left: 150px;
     background: rgba(37, 54, 89, 0.479);
 width: 18px;
@@ -221,12 +219,8 @@ background: #253659CC;
 }
 #company {
     background: url(./image/company-bg.png);
-    height: 100vh;
-    background-size: cover;
+    height: 600px;
     background-repeat: no-repeat;
-    position: relative;
-    top: -93px;
-    overflow: hidden;
 }
 .company-text h1 {
     color: #253659;
@@ -399,9 +393,6 @@ border-radius: 50%;
 #about {
     height: 200px;
     background: #FFF;
-    position: relative;
-    top: -93px;
-    overflow: hidden;
 }
 .about {
     display: flex;
@@ -527,9 +518,11 @@ margin-top: 8px;
 font-size: 14px;
 font-weight: 600;
 }
+#project {
+    height: 735px;
+}
 .project {
     position: relative;
-    top: -92px;
     left: -34px;
 }
 .homes1 {
@@ -735,12 +728,8 @@ letter-spacing: 1.8px;
 }
 #baytik {
     background: url(./image/baytik-bg.png);
-    height: 100vh;
+    height: 500px;
     background-repeat: no-repeat;
-    position: relative;
-    top: 265px;
-    left: 0;
-    overflow: hidden;
 }
 .logo-text {
     padding: 216px 0 0 120px;
@@ -827,9 +816,6 @@ box-shadow: -8px -8px 100px 29px rgba(37, 54, 89, 0.80);
 #main {
 height: 240px;
 background: #FFF;
-position: relative;
-top: 125px;
-overflow: hidden;
 }
 .main h2 {
     color: #253659;
@@ -862,7 +848,6 @@ padding: 40px 0 0 110px;
 height: 360px;
 background: #253659;
 position: relative;
-top: 125px;
 }
 .footer-main {
     display: flex;

@@ -19,7 +19,6 @@ body {
     width: 100%;
     backdrop-filter: blur(5px);
     z-index: 99;
-    overflow: hidden;
 }
 
 .header {
@@ -174,6 +173,7 @@ font-size: 36px;
 font-weight: 600;
 letter-spacing: 3.6px;
 margin: 100px 0 60px 60px;
+z-index: 1;
 }
 .hero-text1 {
     display: flex;
@@ -181,6 +181,7 @@ margin: 100px 0 60px 60px;
     justify-content: center;
     flex-direction: column;
     margin: 0 100px 40px 60px;
+    z-index: 1;
 }
 .hero-text2 {
     display: flex;
