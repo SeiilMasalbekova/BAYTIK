@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 body {
-    background: #ABCBE1;
+    background: #FFF;
     font-family: "Open Sans" sans-serif;
 }
 .container {
@@ -84,19 +84,182 @@ background: #253659;
 font-size: 14px;
 font-weight: 400;
 }
-
-
-
-
-
+#hero {
+    position: relative;
+    top: -90px;
+}
+.hero {
+    display: flex;
+    position: relative;
+}
+.hero-img {
+    position: relative;
+    right: -10px;
+}
+.hero-bg {
+    position: absolute;
+    top: 0;
+    right: -33px;
+}
+.hero-text h1 {
+    color: #253659;
+font-size: 36px;
+font-weight: 600;
+letter-spacing: 3.6px;
+padding: 120px 0 60px 0;
+}
+.hero-text h3 {
+    color: #253659;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 1.8px;
+}
+.hero-text h4 {
+    color: #253659;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 1.8px;
+}
+.hero-text  {
+    margin-left: 39px;
+    z-index: 1;
+}
+.hero-div {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.hero-div1  h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #253659;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    width: 110px;
+height: 40px;
+border-radius: 30px;
+border: 1px solid #253659;
+margin-right: 10px;
+}
+.hero-div1 h6:hover {
+    color: #FFF;
+    background: #253659;
+}
+.hero-div2 h6:hover {
+    color: #FFF;
+    background: #253659;
+}
+.hero-div2  h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #253659;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    width: 110px;
+height: 40px;
+border-radius: 30px;
+border: 1px solid #253659;
+margin-right: 10px;
+}
+.hero-div3 h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #253659;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    width: 174px;
+height: 40px;
+border-radius: 30px;
+border: 1px solid #253659;
+}
+.hero-div3 h6:hover {
+    color: #FFF;
+    background: #253659;
+}
+.home-bg3 {
+    position: absolute;
+}
+.home-text3 h3 {
+    color: #FFF;
+font-size: 36px;
+font-weight: 600;
+letter-spacing: 1.8px;
+}
+.home-text3 {
+    position: absolute;
+    bottom: 20px;
+    left: 460px;
+}
+.home-icon2 {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+.home-icon2 span {
+    font-size: 44px;
+    stroke-width: 1px;
+    color: #009EE3;
+    transform: rotate(45deg);
+}
+.home-icon2 h4 {
+    color: #FFF;
+font-size: 36px;
+font-weight: 600;
+letter-spacing: 2.4px;
+margin: 0 5px;
+}
+.home-icon2 h5 {
+    color: #FFF;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 1.4px;
+}
+.home-icon2 h6 {
+    color: #FFF;
+font-size: 18px;
+font-weight: 300;
+letter-spacing: 1.4px;
+margin: 0 0 0 10px;
+}
+.trees-l {
+    position: absolute;
+    top: 0;
+    left: -34px;
+}
+.trees-r {
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
+.hero-icon-bg span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #009EE3;
+    width: 60px;
+height: 60px;
+border-radius: 50%;
+background: #253659CC;
+}
+.hero-icon-bg {
+    position: absolute;
+    right: 20px;
+    top: 600px;
+    z-index: 2;
+}
 #baytik {
     background: url(./image/baytik-bg.png);
     height: 100vh;
     background-repeat: no-repeat;
-    position: relative;
-    top: 265px;
-    left: 0;
-    overflow: hidden;
+position: relative;  
+top: -100px;  
 }
 .logo-text {
     padding: 216px 0 0 120px;
@@ -184,7 +347,7 @@ box-shadow: -8px -8px 100px 29px rgba(37, 54, 89, 0.80);
 height: 360px;
 background: #253659;
 position: relative;
-top: 125px;
+top: -240px;
 }
 .footer-top {
     display: flex;
