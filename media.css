@@ -1,0 +1,11 @@
+@media(max-width:1440px) {
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .vektor1 {
+        position: absolute;
+        top: 126.4px;
+        left: -3px;
+    }
+}
