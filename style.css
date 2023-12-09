@@ -20,7 +20,6 @@ body {
     width: 100%;
     backdrop-filter: blur(5px);
     z-index: 99;
-    overflow: hidden;
 }
 
 .header {
@@ -91,7 +90,6 @@ background-size: cover;
 background-repeat: no-repeat;
 position: relative;
 top: -93px;
-overflow: hidden;
 }
 .hero-text h1 {
     color: #253659;
@@ -190,7 +188,7 @@ border-radius: 50%;
     position: absolute;
     left: 0;
     top: 325px;
-    z-index: 1;
+    z-index:99;
 }
 .hero-rigth1 {
     position: absolute;
