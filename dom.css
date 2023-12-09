@@ -6,7 +6,6 @@ a {
     text-decoration: none;
 }
 body {
-    background: #FFF;
     font-family: "Open Sans" sans-serif;
 }
 .container {
@@ -21,6 +20,7 @@ body {
     backdrop-filter: blur(5px);
     z-index: 99;
     overflow: hidden;
+
 }
 
 .header {
@@ -85,6 +85,7 @@ font-size: 14px;
 font-weight: 400;
 }
 #hero {
+    background: #FFF;
     position: relative;
     top: -90px;
 }

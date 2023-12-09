@@ -762,6 +762,7 @@ padding: 40px 0 0 110px;
 #footer {
 height: 360px;
 background: #253659;
+position: relative;
 }
 .footer-top {
     display: flex;
