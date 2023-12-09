@@ -764,6 +764,10 @@ height: 360px;
 background: #253659;
 position: relative;
 }
+.footer-main {
+    display: flex;
+    align-items: flex-start;
+}
 .footer-top {
     display: flex;
     align-items: flex-start;

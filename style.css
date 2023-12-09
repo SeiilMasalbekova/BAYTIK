@@ -866,6 +866,10 @@ background: #253659;
 position: relative;
 top: 125px;
 }
+.footer-main {
+    display: flex;
+    align-items: flex-start;
+}
 .footer-top {
     display: flex;
     align-items: flex-start;
